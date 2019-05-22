@@ -1,7 +1,7 @@
 .. _05_Exercises:
 
 =========
-Exercises
+git 
 =========
 
 It is possible to replicate plots you've made previously in MantidPlot entirly using python script in Workbench. 
