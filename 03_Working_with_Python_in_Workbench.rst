@@ -11,13 +11,13 @@ be able to with the interface alone.
    :width: 700px
    :alt: A view of the Workbench script window.
    
-You can also use the IPython tab below the script editor to change to an inline Python interpreter. Both the python interpreter and scripts run thorugh mantid are able to interact 
+You can also use the IPython tab below the script editor to change to an inline Python interpreter. Both the python interpreter and scripts run thorugh Mantid are able to interact 
 with Mantid workspaces, plot and algorithms.
 
 1. Default imports
 ==================
 
-By default any new script opened in workbench will come with some default imports:
+By default any new script opened in Workbench will come with some default imports:
 
 .. code-block:: python
 

@@ -4,12 +4,19 @@
 Opening Mantid Workbench
 ========================
 
-.. figure:: images/mantid_folder.png
-   :width: 700px
-   :alt: Mantid applications in windows start menu
+If you are familiar with older versions of Mantid you will be used to the user interface MantidPlot. MantidPlot was built
+on Qt4 but as Qt4 is no longer being supported the Mantid Workbench was made using Matplotlib for it plotting functionality.
+Currently the Mantid Workbench does not have all the functionality of MantidPlot but once it does Workbench will fully
+replace MantidPlot.
+In this chapter we will cover how to recognize and use some of the features of the Mantid Workbench, as well as the features 
+from MantidPlot that are not yet integrated into Workbench.   
 
 Launching the Mantid Workbench
 ==============================
+
+.. figure:: images/mantid_folder.png
+   :width: 700px
+   :alt: Mantid applications in windows start menu
 
 The Mantid Workbench is available in any install of Mantid 4.0 or higher, available to download form the
 `Downloads section <http://download.mantidproject.org/>`_ of the website. This will install both MantidPlot and the Mantid
@@ -25,9 +32,9 @@ the left with a script editor in the centre then you have opened the Mantid Work
 
 .. figure:: images/MantidWorkbench_example.png
    :width: 700px
-   :alt: The example of the Mantid workbench
+   :alt: The example of the Mantid Workbench
 
-The default layout of both can be changed so you can't always rely on that if you are opening a copy of mantid that has
+The default layout of both can be changed so you can't always rely on that if you are opening a copy of Mantid that has
 already been altered. In that case you can also tell the difference by the name in the top left corner, and the icon on
 the taskbar.
 

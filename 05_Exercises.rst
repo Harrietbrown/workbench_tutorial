@@ -1,7 +1,7 @@
 .. _05_Exercises:
 
 =========
-git 
+Exercises
 =========
 
 It is possible to replicate plots you've made previously in MantidPlot entirly using python script in Workbench. 
@@ -13,7 +13,7 @@ Part 1:
 
 #. Load the File "GEM38370_Focussed_Legacy.nxs" using the algorithm: ``GEM38370_Focussed_Legacy = Load("GEM38370_Focussed_Legacy")``
    
-#. Before plotting from workspaces you will need to set your subplot up with the mantid projection so it can interpret them. To do this include: 
+#. Before plotting from workspaces you will need to set your subplot up with the Mantid projection so it can interpret them. To do this include: 
    
    ``fig,ax = plt.subplots(subplot_kw = {"projection": "mantid"})``
    

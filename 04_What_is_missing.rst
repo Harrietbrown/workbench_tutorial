@@ -4,7 +4,7 @@
 What is missing from Workbench
 ==============================
 
-While much of MantidPlot's functionality can be replicated through the python scripts the interface on workbench does lack some aspects that you have 
+While much of MantidPlot's functionality can be replicated through the python scripts the interface on Workbench does lack some aspects that you have 
 used in previous parts of this tutorial.
 
 Plotting tools
@@ -14,6 +14,8 @@ In the loading_and_displaying_data chapter you learnet how to create 2D colour p
 their colour bar scale changed between linear and logarithmic removing the usefulness of colourfill plots.
 Workbench also lacks an interface for producing 3D plots at all, lacking the advanced plot tool that was presant in MantidPlot.
 Access to these plots must be done through Matplotlib directly, it may help to consult the `Matplotlib in Mantid tutorial <https://docs.mantidproject.org/nightly/plotting/index.html#simple-plots>`_.
+
+
 
 Interfaces
 ==========
@@ -51,7 +53,13 @@ MantidPlot provides a range of different interfaces that are not yet available i
   - TofConverter
 
   
-Check with others that these are not in workbench or what command opens it.
+Check with others that these are not in Workbench or what command opens it.
 ===========================================================================
 You can not open dialoge boxes via the interpreter of script editor using funtions such as ``LoadDialog()``. This may limit the interactablity of scripts run 
-through workbench.
+through Workbench.
+
+getInstrumentView("workspace-name")
+
+plotSlice()
+
+LogFilter()
